@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <!-- <chessboard /> -->
+    BLOO
+  </div>
+</template>
+
+<script>
+import { chessboard } from 'vue-chessboard';
+import 'vue-chessboard/dist/vue-chessboard.css';
+
+export default {
+  name: 'CurrentGame',
+  props: {
+    msg: String,
+  },
+  components: { chessboard },
+};
+</script>
+
+<style scoped lang="scss">
+</style>

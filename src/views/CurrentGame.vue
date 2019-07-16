@@ -1,0 +1,16 @@
+<template>
+  <div>
+    <ChessBoard />
+  </div>
+</template>
+
+<script>
+import ChessBoard from '@/components/ChessBoard.vue';
+
+export default {
+  name: 'current-game',
+  components: {
+    ChessBoard,
+  },
+};
+</script>
